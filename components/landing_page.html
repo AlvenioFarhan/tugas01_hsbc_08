@@ -34,27 +34,25 @@
     </style>
     <title>Portofolio</title>
   </head>
-  <body class="bg-slate-100 mx-[100px]">
+  <body class="bg-slate-100 mx-24">
     <!-- Header -->
-    <header
-      class="w-96 h-24 py-11 justify-between gap-[745px] inline-flex mt-[18px]"
-    >
+    <header class="py-8 justify-between inline-flex sm:justify-center">
       <div class="py-5 justify-start items-center gap-2.5 flex">
         <h1 class="text-[#EC1B09] text-2xl font-normal">My</h1>
         <h1 class="text-[#FF9C1A] text-2xl font-normal">Portofolio</h1>
       </div>
     </header>
 
-    <div class="flex flex-wrap lg:flex-nowrap justify-center mt-7 gap-7">
+    <div class="flex flex-wrap lg:flex-nowrap justify-center gap-7">
       <!-- Profile Card -->
       <aside
-        class="w-96 bg-white rounded-2xl shadow-xl flex-row justify-center mb-[50px] text-center border"
+        class="w-96 bg-white rounded-2xl shadow-xl flex-row justify-center mb-12 text-center border"
       >
         <!-- Picture -->
         <img
           src="../assets/foto.jpg"
           alt="Profile Picture"
-          class="w-48 h-48 rounded-2xl shadow mt-[52px] ml-[92px] mr-[108px] mb-[14px]"
+          class="w-48 h-48 rounded-2xl shadow mt-12 ml-24 mr-28 mb-3.5"
         />
         <!-- Name -->
         <h1 class="text-black text-2xl font-bold leading-9">
@@ -62,7 +60,7 @@
         </h1>
         <!-- Job -->
         <sub
-          class="text-black text-opacity-50 text-base font-medium leading-10 text-center mt-[4px] mb-[6px]"
+          class="text-black text-opacity-50 text-base font-medium leading-10 text-center pb-3.5"
           >FullStack Developer</sub
         >
         <!-- Social Media -->
@@ -96,7 +94,7 @@
         <!-- Contact Card -->
         <div class="flex justify-center">
           <div
-            class="w-80 h-80 bg-slate-100 rounded-2xl mt-[22.34px] mb-[50px] flex-row justify-center mx-[25px]"
+            class="w-80 h-80 bg-slate-100 rounded-2xl mt-6 mb-12 flex-row justify-center mx-6"
           >
             <div class="w-64 h-16 relative ml-9 mt-8 border-b">
               <div class="w-40 h-11 flex justify-start items-center gap-2.5">
@@ -156,14 +154,23 @@
                 href="landing_page.html"
                 class="w-20 h-20 bg-[#FF9C1A] hover:text-white rounded-2xl flex-col flex justify-center items-center"
               >
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                <path d="M12.959 1.6601C12.8259 1.55635 12.662 1.5 12.4932 1.5C12.3245 1.5 12.1606 1.55635 12.0275 1.6601L1.25 10.0639L2.18225 11.2429L3.5 10.2154V19.4996C3.50079 19.8972 3.65908 20.2783 3.94022 20.5594C4.22135 20.8405 4.60242 20.9988 5 20.9996H20C20.3976 20.9988 20.7787 20.8405 21.0598 20.5594C21.3409 20.2783 21.4992 19.8972 21.5 19.4996V10.2221L22.8177 11.2496L23.75 10.0706L12.959 1.6601ZM14 19.4996H11V13.4996H14V19.4996ZM15.5 19.4996V13.4996C15.4996 13.1019 15.3414 12.7206 15.0602 12.4394C14.779 12.1582 14.3977 12 14 11.9996H11C10.6023 12 10.221 12.1582 9.93978 12.4394C9.65856 12.7206 9.5004 13.1019 9.5 13.4996V19.4996H5V9.0461L12.5 3.2036L20 9.0536V19.4996H15.5Z" fill="#F2F7FC"/>
-              </svg>
-                <li class=" text-white">Home</li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12.959 1.6601C12.8259 1.55635 12.662 1.5 12.4932 1.5C12.3245 1.5 12.1606 1.55635 12.0275 1.6601L1.25 10.0639L2.18225 11.2429L3.5 10.2154V19.4996C3.50079 19.8972 3.65908 20.2783 3.94022 20.5594C4.22135 20.8405 4.60242 20.9988 5 20.9996H20C20.3976 20.9988 20.7787 20.8405 21.0598 20.5594C21.3409 20.2783 21.4992 19.8972 21.5 19.4996V10.2221L22.8177 11.2496L23.75 10.0706L12.959 1.6601ZM14 19.4996H11V13.4996H14V19.4996ZM15.5 19.4996V13.4996C15.4996 13.1019 15.3414 12.7206 15.0602 12.4394C14.779 12.1582 14.3977 12 14 11.9996H11C10.6023 12 10.221 12.1582 9.93978 12.4394C9.65856 12.7206 9.5004 13.1019 9.5 13.4996V19.4996H5V9.0461L12.5 3.2036L20 9.0536V19.4996H15.5Z"
+                    fill="#F2F7FC"
+                  />
+                </svg>
+                <li class="text-white">Home</li>
               </a>
               <a
                 href="resume_page.html"
-                class="w-20 h-20 bg-slate-400 hover:bg-[#FF9C1A]  rounded-2xl flex-col flex justify-center items-center"
+                class="w-20 h-20 bg-slate-400 hover:bg-[#FF9C1A] rounded-2xl flex-col flex justify-center items-center"
               >
                 <img
                   src="../assets/resume icon.svg "
@@ -174,7 +181,7 @@
               </a>
               <a
                 href="contact_page.html"
-                class="w-20 h-20 bg-slate-400 hover:bg-[#FF9C1A]  rounded-2xl flex-col flex justify-center items-center"
+                class="w-20 h-20 bg-slate-400 hover:bg-[#FF9C1A] rounded-2xl flex-col flex justify-center items-center"
               >
                 <img
                   src="../assets/contact icon.svg"
@@ -204,69 +211,58 @@
           </p>
           <h1 class="text-3xl py-4">What I do</h1>
 
-          <div class="flex flex-wrap gap-7 mb-5 justify-center">
-            <div class="flex gap-7">
-              <div class="bg-orange-100 rounded-xl p-2.5">
-                <div class="flex justify-center">
-                  <img src="../assets/code icon.svg" alt="Code" class="mr-2" />
-                  <h1 class="font-bold text-2xl">Web Development</h1>
-                </div>
-                <p class="">
-                  As a developer, I find myself most captivated by the power and
-                  flexibility of NEXT.js. I'm always eager to dive into new
-                  projects that leverage NEXT.js and discover innovative ways to
-                  create fast, scalable, and user-friendly applications.
+          <div class="flex gap-6">
+          <div class=" flex-row gap-6 ">
+            <div class=" flex-col justify-center bg-orange-100 rounded-xl p-2.5 py-5 mb-8">
+              <div class=" flex ">
+                <img src="../assets/code icon.svg" alt="Code"  class="mr-2"/>
+                <h1 class="font-bold text-2xl">Web Development</h1>
+              </div>
+              <div>
+                <p>
+                  As a developer, I find myself most captivated by the power and flexibility of NEXT.js. I'm always eager to dive into new projects that leverage NEXT.js and discover innovative ways to create fast, scalable, and user-friendly applications.
                 </p>
               </div>
-
-              <div class="bg-slate-100 rounded-xl p-2.5">
-                <div class="flex justify-center">
-                  <img src="../assets/App.svg" alt="App" class="mr-2" />
-                  <h1 class="font-bold text-2xl">App Development</h1>
-                </div>
+            </div>
+            <div class=" flex-col justify-center bg-slate-100 rounded-xl p-2.5 pb-8">
+              <div class=" flex ">
+                <img src="../assets/ux icon.svg" alt="UI/UX"  class="mr-2"/>
+                <h1 class="font-bold text-2xl">UI/UX Designing</h1>
+              </div>
+              <div>
                 <p>
-                  With a focus on user-centric design and cutting-edge
-                  technologies, I thrive on building intuitive and efficient
-                  apps that make a positive impact on people's lives. Let's turn
-                  ideas into reality and shape the future together.
+                  Crafting visually appealing and intuitive user interfaces that offer a delightful user experience is something I'm truly fanatic about.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="flex flex-wrap gap-7 justify-center">
-            <div class="flex gap-7">
-              <div class="py-3.5 px-6 bg-orange-100 rounded-xl p-2.5">
-                <div class="flex justify-center">
-                  <img src="../assets/ux icon.svg" alt="UI/UX" class="mr-2" />
-                  <h1 class="font-bold text-2xl mx-2 whitespace-nowrap">
-                    UI/UX Designing
-                  </h1>
-                </div>
-                <p class="">
-                  Crafting visually appealing and intuitive user interfaces that
-                  offer a delightful user experience is something I'm truly
-                  fanatic about.
+          <div class=" flex-row gap-6">
+            <div class=" flex-col justify-center bg-orange-100 rounded-xl p-2.5 mb-8">
+              <div class=" flex ">
+                <img src="../assets/App.svg" alt="Code"  class="mr-2"/>
+                <h1 class="font-bold text-2xl">App Development</h1>
+              </div>
+              <div>
+                <p>
+                  With a focus on user-centric design and cutting-edge technologies, I thrive on building intuitive and efficient apps that make a positive impact on people's lives. Let's turn ideas into reality and shape the future together.
                 </p>
               </div>
-
-              <div class="bg-slate-100 rounded-xl p-2.5">
-                <div class="flex justify-start">
-                  <img
-                    src="../assets/Mentor icon.svg"
-                    alt="Mentorship"
-                    class="mr-2"
-                  />
-                  <h1 class="font-bold text-2xl">Mentorship</h1>
-                </div>
+            </div>
+            <div class=" flex-col justify-center bg-slate-100 rounded-xl p-2.5">
+              <div class=" flex ">
+                <img src="../assets/Mentor icon.svg" alt="UI/UX"  class="mr-2"/>
+                <h1 class="font-bold text-2xl">Mentorship</h1>
+              </div>
+              <div>
                 <p>
-                  I have also found great joy in sharing my knowledge with
-                  others. Being a technical mentor allows me to give back to the
-                  community that has supported me throughout my career.
+                  I have also found great joy in sharing my knowledge with others. Being a technical mentor allows me to give back to the community that has supported me throughout my career.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+
         </div>
         <!-- End About Me -->
       </div>
